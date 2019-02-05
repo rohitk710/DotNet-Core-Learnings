@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace Demo.Migrations
+namespace SampleOneToManyApi.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20190203175457_InitialChanges")]
-    partial class InitialChanges
+    [Migration("20190204050256_Tryingout")]
+    partial class Tryingout
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

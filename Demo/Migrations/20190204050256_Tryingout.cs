@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Demo.Migrations
+namespace SampleOneToManyApi.Migrations
 {
-    public partial class InitialChanges : Migration
+    public partial class Tryingout : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
